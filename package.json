@@ -1,16 +1,19 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "a backend for video stream",
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-  "license": "ISC",
-  "author": "Srinivash",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+   "name": "backend",
+   "version": "1.0.0",
+   "description": "a backend for video stream",
+   "keywords": [
+      "javascript",
+      "backend"
+   ],
+   "license": "ISC",
+   "author": "Srinivash",
+   "type": "module",
+   "main": "index.js",
+   "scripts": {
+      "dev": "nodemon src/index.js"
+   },
+   "devDependencies": {
+      "nodemon": "^3.1.14"
+   }
 }
